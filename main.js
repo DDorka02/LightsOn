@@ -11,3 +11,15 @@ function letrehozTablazat(tomb){
         console.log(txt)
 
 }
+
+function szinValtozas(tomb) {
+    
+}
+
+function listaOsszeAllit(tomb) {
+    return tomb
+}
+
+function lekapcsoltLampakSzama(lista) {
+    return szam
+}
