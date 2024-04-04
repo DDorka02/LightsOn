@@ -9,3 +9,4 @@ export const SZINEK = [
     { szin: 'blue'},
     { szin: 'red'}
 ];
+
