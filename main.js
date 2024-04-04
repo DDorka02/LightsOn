@@ -1,18 +1,19 @@
 import { SZINEK } from "./adatok.js";
 
 function letrehozTablazat(lista){
+    let txt = ""
     for (let index = 0; index < lista.length; index++) {
-        let txt = `<div class="kepek" style="background-color:${lista[i].szin}">`
-        txt += `red`
-        txt += `blue`
+        txt += `<div class="kepek" style="background-color:${lista[index].szin}">`
+       
         txt += "</div>"      
     }
     console.log(txt)
+    return txt
     
 }
 
 const ELEM = $(".lista")
-ELEM.html=letrehozTablazat(SZINEK)
+ELEM.html(letrehozTablazat(SZINEK))
 
 function szinValtozas(tomb) {
     const szinValt = $(".lista")
