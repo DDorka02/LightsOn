@@ -1,17 +1,13 @@
 import { SZINEK } from "./adatok.js";
 
-function letrehozTAblazat(tomb){
-    let txt = "<table>"
-    for (let index = 0; index < tomb.length; index++) {
-        txt += "<tr>"
-        txt += "<td>"+GYUMOLCSOK[index].nev+"</td>"
-        txt += "<td>"+GYUMOLCSOK[index].tomeg+"</td>"
-        txt += "<td>"+GYUMOLCSOK[index].ar+"</td>"
-        txt += "</tr>"  
-    }
-    txt += "</table>"
-    console.log(txt)
-
-    return txt
+function letrehozTablazat(tomb){
+        let txt = `<div class="kepek">`
+        txt += `<img src="Babak1.png" alt="Baba">`
+        txt += `<img src="Babak2.png" alt="Baba">`
+        txt += `<img src="Babak3.png" alt="Baba">`
+        txt += `<img src="Babak4.png" alt="Baba">`
+        txt += `<img src="Babak5.png" alt="Baba">`
+        txt += "</div>"
+        console.log(txt)
 
 }
