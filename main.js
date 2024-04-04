@@ -2,11 +2,8 @@ import { SZINEK } from "./adatok.js";
 
 function letrehozTablazat(tomb){
         let txt = `<div class="kepek">`
-        txt += `<img src="Babak1.png" alt="Baba">`
-        txt += `<img src="Babak2.png" alt="Baba">`
-        txt += `<img src="Babak3.png" alt="Baba">`
-        txt += `<img src="Babak4.png" alt="Baba">`
-        txt += `<img src="Babak5.png" alt="Baba">`
+        txt += `<img src="red.png" alt="piros">`
+        txt += `<img src="blue.png" alt="kek">`
         txt += "</div>"
         console.log(txt)
 
@@ -23,3 +20,6 @@ function listaOsszeAllit(tomb) {
 function lekapcsoltLampakSzama(lista) {
     return szam
 }
+
+const ELEM = $(".lista")
+ELEM
