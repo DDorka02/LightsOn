@@ -8,20 +8,38 @@ function letrehozTablazat(lista){
         txt += "</div>"
         console.log(txt)    
     }
-        
-
 }
+
+const szin = document.querySelector(".tartalom")
+console.log(szin)
+szin.html = letrehozTablazat(SZINEK)
+
+
+
+
 
 const ELEM = $(".lista")
 ELEM.html=letrehozTablazat(SZINEK)
+
+
+
+
 
 function szinValtozas(tomb) {
     
 }
 
+
+
+
+
 function listaOsszeAllit(tomb) {
     return tomb
 }
+
+
+
+
 
 function lekapcsoltLampakSzama(lista) {
     return szam
