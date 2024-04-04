@@ -7,9 +7,22 @@ function letrehozTablazat(lista){
         txt += "</div>"
         console.log(txt)
 
-        return txt
-
 }
 
 const ELEM = $(".lista")
 ELEM.html=letrehozTablazat(SZINEK)
+
+function szinValtozas(tomb) {
+    
+}
+
+function listaOsszeAllit(tomb) {
+    return tomb
+}
+
+function lekapcsoltLampakSzama(lista) {
+    return szam
+}
+
+
+ELEM
