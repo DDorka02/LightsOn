@@ -12,8 +12,16 @@ function letrehozTablazat(lista){
     
 }
 
+
+
+
+
 const ELEM = $(".lista")
 ELEM.html(letrehozTablazat(SZINEK))
+
+
+
+
 
 function szinValtozas(tomb) {
     const szinValt = $(".lista")
@@ -24,6 +32,15 @@ function szinValtozas(tomb) {
 }
 const ELEM2 = $(".lista")
 ELEM2.html=szinValtozas(SZINEK)
+
+
+
+
+
+function listaOsszeAllit(tomb) {
+    return tomb
+}
+
 
 
 
