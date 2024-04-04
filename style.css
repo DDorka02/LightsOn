@@ -1,4 +1,13 @@
+main {
+    width: 90%;
+    margin: 0px auto;
+}
+
 span {
     color: red;
     font-weight: bold;
+}
+
+p {
+    text-align: center;
 }
