@@ -1,11 +1,14 @@
 import { SZINEK } from "./adatok.js";
 
 function letrehozTablazat(lista){
-        let txt = `<div class="kepek style="background-color:${lista[i]}">`
+    for (let index = 0; index < lista.length; index++) {
+        let txt = `<div class="kepek" style="background-color:${lista[i].szin}"">`
         txt += ``
         txt += ``
         txt += "</div>"
-        console.log(txt)
+        console.log(txt)    
+    }
+        
 
 }
 
