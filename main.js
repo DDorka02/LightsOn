@@ -42,7 +42,9 @@ function listaOsszeAllit(tomb) {
 
 
 
-/*function listaOsszeAllit(tomb) {
+/*
+
+function listaOsszeAllit(tomb) {
     return tomb
 }
 
@@ -54,4 +56,6 @@ function lekapcsoltLampakSzama(lista) {
 }
 
 const ELEM2 = $(".lista")
-ELEM2.html=lekapcsoltLampakSzama(SZINEK)*/
+ELEM2.html=lekapcsoltLampakSzama(SZINEK)
+
+*/
