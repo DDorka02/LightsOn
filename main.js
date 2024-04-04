@@ -26,6 +26,3 @@ function listaOsszeAllit(tomb) {
 function lekapcsoltLampakSzama(lista) {
     return szam
 }
-
-
-ELEM
