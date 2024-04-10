@@ -20,8 +20,8 @@ function letrehozTablazat(lista){
     let txt = ""
     for (let index = 0; index < lista.length; index++) {
         txt += `<div class="kepek" id=${index} style="background-color:${lista[index].szin}">`
-       
-        txt += "</div>"      
+        
+        txt += "</div>"
     }
     console.log(txt)
     return txt
