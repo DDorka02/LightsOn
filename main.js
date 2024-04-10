@@ -12,7 +12,10 @@ import { SZINEK } from "./adatok.js";
             korok = `blue`;
         }        
     }
-}*/
+}
+const ELEM = $(".lista")
+ELEM.html(letrehozTablazat(SZINEK))
+*/
 
 function letrehozTablazat(lista){
     let txt = ""
@@ -26,8 +29,8 @@ function letrehozTablazat(lista){
     
 }
 
-const ELEM = $(".lista")
-ELEM.html(letrehozTablazat(SZINEK))
+const ELEM2 = $(".lista")
+ELEM2.html(letrehozTablazat(SZINEK))
 
 
 
@@ -42,8 +45,8 @@ ELEM.html(letrehozTablazat(SZINEK))
     
 
 }
-const ELEM2= $(".lista")
-ELEM2.html=szinValtozas()*/
+const ELEM3= $(".lista")
+ELEM3.html=szinValtozas()*/
 
 function listaOsszeAllit(tomb) {
     tomb = []
@@ -57,14 +60,14 @@ function listaOsszeAllit(tomb) {
     }
     return tomb
 }
-const ELEM3 = $(".lista")
-ELEM3.html=listaOsszeAllit(SZINEK)
+const ELEM4 = $(".lista")
+ELEM4.html=listaOsszeAllit(SZINEK)
 /*
 function lekapcsoltLampakSzama(lista) {
     return szam
 }
 
-const ELEM2 = $(".lista")
-ELEM2.html=lekapcsoltLampakSzama(SZINEK)
+const ELEM5 = $(".lista")
+ELEM5.html=lekapcsoltLampakSzama(SZINEK)
 
 */
