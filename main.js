@@ -1,5 +1,3 @@
-import { SZINEK } from "./adatok.js";
-
 //const SZINEK =  []
 
 /*function tablazatOsszeallit(){
